@@ -1,8 +1,14 @@
 # Linux — Service Down
 
-**Current Runbook:** [RUNBOOK-001 — Nginx Web Service Down](runbook.md)
+This folder covers scenarios where a Linux service (e.g. Nginx) is unavailable or not responding.
 
-This scenario covers: web service unreachable, process not running, port not listening, configuration failure, and cases where the service is healthy locally but unreachable externally.
+## Runbooks
 
-**Associated Lab:** [LAB-001](../../../labs/linux/001-service-down/) *(coming soon)*
-**Associated Incident:** [INCIDENT-001](../../../incidents/001-nginx-service-down/) *(coming soon)*
+| ID | File | Description |
+|----|------|-------------|
+| 001 | [runbook.md](runbook.md) | Nginx Web Service Down |
+
+## Coming Soon
+
+- lab.md — reproduce the failure locally using Docker
+- incident.md — simulated postmortem with timeline and RCA
