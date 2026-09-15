@@ -71,8 +71,8 @@ production-troubleshooting-playbook/
 --- 
 
 #R RunBooks
-| ID  | Scenario | Runbook | Lab | Incident |
-|-----|----------|---------|-----|----------|
+| ID  | Scenario | Runbook | 
+|-----|----------|---------|
 | 001 | [Nginx Web Service Down](runbooks/linux/service-down/runbook.md) | Done |
 
 ## Core Principle
